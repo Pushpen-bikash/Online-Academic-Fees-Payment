@@ -1,0 +1,92 @@
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 500px;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+.account-info1,.account-info2,.account-info3 {
+  padding: 20px 20px 0 20px;
+}
+.account-info1 label,.account-info2 label,.account-info3 label {
+  color: #395870;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.account-info1 input,select,.account-info2 input,select,.account-info3 input,select {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+.account-action1,.account-action2,.account-action3 {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+}
+.account-action1 .btn1,.account-action2 .btn2,.account-action3 .btn3 {
+  background: linear-gradient(#49708f, #293f50);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+  padding: 8px 16px;
+}
+.account-action1 label ,.account-action2 label ,.account-action3 label {
+  color: #7c7c80;
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+div.for
+{
+position:fixed;
+top:70px;
+left:750px;
+width:70%;
+}
+div.pic
+{
+position:fixed;
+width:100%;
+top:50px;
+}
+img
+{
+width:100%;
+height:40%;
+}
+.lik1
+{
+position:relative;
+left:355px;
+top:15px;
+}
+.copyr
+{
+position:fixed;
+left:1000px;
+bottom:0px;
+width:100%;
+}
+

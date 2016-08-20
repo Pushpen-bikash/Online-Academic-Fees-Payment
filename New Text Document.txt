@@ -1,0 +1,27 @@
+CREATE TABLE users(
+account_no INT AUTO_INCREMENT PRIMARY KEY ,
+name CHAR( 25 ) not null ,
+roll INT not null,
+balance INT not null CHECK (balance >500 ),
+dept CHAR( 25 ),
+password CHAR( 25 ) not null CHECK (len("password") >=6 AND len("password") <=9 )
+)
+
+
+CREATE TABLE trasaction(
+account_no INT,
+saving_account_no INT,
+account_nameCHAR( 25 ) ,
+transaction_typeCHAR( 25 ) ,
+ammount INT,
+TIME TIMESTAMP,
+FOREIGN KEY ( account_no ) REFERENCES users( account_no ) ON DELETE CASCADE
+)
+
+INSERT INTO `trasaction`(`account_no`, `saving_account_no`, `account_name`, `transaction_type`, `ammount`, `time`) VALUES (5,100,'Hamid Hall','Bus Rent',100,current_timestamp)
+
+
+if(!isset($firstname) || trim($firstname) == '')
+{
+   echo "You did not fill out the required fields.";
+}
